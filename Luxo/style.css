@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    background: #24242c;
+    padding: 22px 0 25px 0;
+
+}
+nav .head{
+    margin: auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+nav .head a{
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: #97999b;
+}
+header{
+    background: #e0ad2f;
+}
+header .title{
+    width: 500px;
+    margin: auto;
+    padding: 159px 0 124px;
+    text-align: center;
+}
+header .title h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+header .title p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #24242c;
+    font-family: "Open Sans";
+    margin-bottom: 48px;
+}
+.title button span
+{
+    margin-left: 5px;
+}
+header .title button{
+    background: #24242c;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    height: 48px;
+    width: 162px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Open Sans";
+}
+main{
+    padding: 27px 0;
+}
+main .offer{
+    width: 592px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+main .offer .offer_box{
+    width: 190px;
+}
+main .offer .offer_box h2{
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #24242c;
+    font-weight: 600;
+    margin-top: 22px;
+    margin-bottom: 14px;
+}
+main .offer .offer_box .location{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+main .offer .offer_box .location img{
+    width: 9px;
+    height: 12px;
+    margin-top: 2px;
+}
+main .offer .offer_box .location a{
+    font-size: 13px;
+    font-family: "Lora";
+    color: #97999b;
+    font-weight: 400;
+}
+main .offer .offer_box p{
+    font-size: 13px;
+    color: #97999b; 
+    font-family: "Open Sans";  
+}
+main .offer .offer_box .cost{
+    font-size: 20px;
+    color: #24242c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+main .offer .offer_box button{
+    height: 37px;
+    width: 129px;
+    background: #24242c;
+    font-size: 13px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #ffb600;
+    border: 1px black solid;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.video{
+    background: #47474e;
+}
+.video .life{
+    padding-top: 102px;
+    padding-bottom: 63px;
+    width: 396px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.video .life h2{
+    margin-bottom: 33px;
+}
+.video .life h2 .new{
+    font-size: 35px;
+    font-family: "open Sans";
+    font-weight: 400;
+    color: #ffffff;
+}
+.video .life h2 .lif{
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 400;
+    color: #ffb600;
+    font-family: "Lora";
+}
+.video .life h2 .begin{
+    font-size: 35px;
+    color: #ffb600;
+    font-weight: 400;
+    font-family: "Lora";
+}
+.video .life button{
+    margin-bottom: 63px;
+    height: 46px;
+    width: 162px;
+    border: 1px white solid;
+    border-radius: 5px;
+    background: #ffb600;
+    margin: auto;
+}
+.video .life button span{
+    color: #ffffff;
+}
+section .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 804px;
+    margin: auto;
+    height: 860px;
+}
+section .boxes .box{
+    width: 402px;
+    height: 430px;
+ 
+}
+section .boxes .box:nth-child(2){
+    background: #97999b;
+}
+section .boxes .box:nth-child(3){
+    background: #97999b;
+}
+section .boxes .box .off{
+    
+    width: 208px;
+    margin: auto;
+}
+section .boxes .box .off h2{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #24242c;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+section .boxes .box .off .location{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}section .boxes .box .off .location img{
+    width: 9px;
+    height: 12px;
+    margin-top: 2px;
+}
+section .boxes .box .off .location a{
+    font-size: 13px;
+    font-family: "Lora";
+    color: #97999b;
+    font-weight: 400;
+}
+section .boxes .box .off p{
+    font-size: 13px;
+    color: #97999b; 
+    font-family: "Open Sans";  
+}
+section .boxes .box .off .cost{
+    font-size: 20px;
+    color: #24242c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-top: 24px;
+   
+}
+footer{
+    background: #24242c;
+padding: 20px 0 35px;
+}
+footer .end{
+   width: 582px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+footer .end .logotip{
+    width: 169px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Open Sans";
+    color: #797c82;
+    align-items: center;
+}
+footer .end .icons{
+    width: 111px;
+    display: flex;
+    justify-content: space-between;
+}

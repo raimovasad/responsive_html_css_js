@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(./images/header_bg\ h682.jpg);
+    height: 682px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 58px;
+}
+
+header nav {
+    background: rgba(0, 0, 0, .76);
+    display: flex;
+    justify-content: space-between;
+
+    height: 76px;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    align-items: center;
+    margin: auto;
+}
+
+header nav .menu ul {
+    display: flex;
+    height: 76px;
+    justify-content: space-between;
+    width: 546px;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+header nav .menu ul li {
+    text-align: center;
+}
+
+
+header nav .menu ul li a {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Lato";
+    display: block;
+    position: relative;
+
+
+}
+
+header nav .menu ul li a::after {
+    display: block;
+    content: "";
+    background: #e9696a;
+    margin-top: 1px;
+    width: 86px;
+    opacity: 0;
+    transition: 0.3s;
+    position: absolute;
+    top: 40px;
+    right: 50%;
+    transform: translateX(50%);
+
+
+}
+
+header nav .menu ul li a:hover::after {
+    opacity: 1;
+    height: 6px;
+    width: 86px;
+
+    background: #e9696a;
+}
+
+header .head {
+    width: 1126px;
+
+    margin: auto;
+}
+
+header .head .cap {
+    margin-top: 74px;
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+}
+
+header .head .cap h1 {
+    font-family: "Lato";
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+header .head .cap h1 span {
+    color: #f06d6e;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    font-family: "Lato";
+}
+
+header .head .cap p {
+    width: 350px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    color: #3d3d39;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+
+header .head .cap button {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 28px;
+    color: #3d3d39;
+    font-weight: 400;
+    border: 1px solid #fac81b;
+    border-left: 4px solid #fac81b;
+    width: 144px;
+    height: 48px;
+    cursor: pointer;
+    background: transparent;
+}
+
+header .head .cap button:focus {
+    outline: none;
+}
+
+/* =========features======== */
+.features {
+    background: #e66768;
+}
+
+.div {
+    background: #ecba0b;
+    width: 86px;
+    height: 6px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.features h2 {
+    margin-top: 74px;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: 400;
+    color: #ecba0b;
+    line-height: 39px;
+    margin-bottom: 80px;
+
+}
+
+.features h2 span {
+    font-weight: 700;
+}
+
+.features .boxes {
+    width: 1130px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .boxes .box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.features .boxes .box .icon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dd5e5f;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background: #dd5e5f;
+    margin-bottom: 40px;
+    transition: 0.7s;
+}
+
+.features .boxes .box:hover .icon1 {
+    border: 2px solid #fac81b;
+}
+
+.features .boxes .box a h3 {
+    font-size: 22px;
+    font-family: "Lato";
+    line-height: 39px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 31px;
+    transition: .5s;
+    display: block;
+}
+
+.features .boxes .box a h3:hover {
+    color: #fac81b;
+}
+
+.features .boxes .box p {
+    font-size: 14px;
+    font-family: "Lato";
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+.features .boxes .box button {
+    border: 1px solid #fac81b;
+    border-left: solid 4px #fac81b;
+    background: transparent;
+    width: 144px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Lato";
+    color: #ffffff;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.features .boxes .box button:focus {
+    outline: none;
+}
+
+/* ============main=========== */
+main {
+    background: #f6f1ed;
+    padding-bottom: 80px;
+}
+
+main .title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+main .title h2 {
+    margin-top: 80px;
+    color: #ecba0b;
+    font-size: 35px;
+    line-height: 39px;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 84px;
+}
+
+main .title h2 span {
+    font-weight: 700;
+}
+
+main .title .kubik {
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main .pictures .pic1 {
+    height: 247px;
+    background: url(./images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+main .pictures .pic2 {
+    height: 247px;
+    background: url(./images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+main .pictures .pic3 {
+    height: 247px;
+    background: url(./images/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+main .pictures .pic4 {
+    height: 247px;
+    background: url(./images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+main .pictures .pic5 {
+    height: 247px;
+    background: url(./images/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+main .pictures .pic6 {
+    height: 247px;
+    background: url(./images/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+main .pictures .pic7 {
+    height: 247px;
+    background: url(./images/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+main .pictures .pic8 {
+    height: 247px;
+    background: url(./images/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+main .hover {
+    padding-top: 92px;
+    position: absolute;
+    bottom: -500px;
+    left: -300px;
+    width: 100%;
+    height: 100%;
+    background: rgba(230, 103, 104, 0.7);
+    transition: 0.5s;
+}
+
+main .hover .hov {
+    width: 320px;
+    margin: auto;
+}
+
+main .hover .hov h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Lato";
+    line-height: 25px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+main .hover .hov p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lato";
+    color: #ffffff;
+    line-height: 25px;
+    margin-bottom: 28px;
+}
+
+main .hover .hov .but {
+    width: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .hover .hov .but button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+main .hover .hov .but button:focus {
+    outline: none;
+}
+
+main .pictures .pic1:hover .hover {
+    bottom: 0px;
+    left: 0px;
+}
+
+main .pictures .pic2:hover .hover {
+    bottom: 0px;
+    left: 0px;
+}
+
+main .pictures .pic3:hover .hover {
+    bottom: 0px;
+    left: 0px;
+}
+
+main .pictures .pic4:hover .hover {
+    bottom: 0px;
+    left: 0px;
+}
+
+main .pictures .pic5:hover .hover {
+    bottom: 0px;
+    left: 0px;
+}
+
+main .pictures .pic6:hover .hover {
+    bottom: 0px;
+    left: 0px;
+}
+
+main .pictures .pic7:hover .hover {
+    bottom: 0px;
+    left: 0px;
+}
+
+main .pictures .pic8:hover .hover {
+    bottom: 0px;
+    left: 0px;
+}
+
+section h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 35px;
+    color: #ecba0b;
+    line-height: 39px;
+    font-weight: 400;
+    margin-bottom: 78px;
+}
+
+section h2 span {
+    font-weight: 700;
+}
+
+.profiles {
+    width: 1124px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 84px;
+
+}
+
+.profiles .blog {
+    width: 361px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profiles .blog .post1 {
+    background: url(./images/profile\ bg\ 1.jpg);
+    width: 100%;
+    height: 212px;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.profiles .blog .post2 {
+    background: url(./images/profile\ bg\ 2.jpg);
+    height: 212px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.profiles .blog .post3 {
+    background: url(./images/profile\ bg\ 3.jpg);
+    height: 212px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 68px;
+}
+
+.profiles .blog img {
+    position: absolute;
+    left: 139px;
+    bottom: -42px;
+}
+
+.profiles .blog p {
+    text-align: center;
+    width: 304px;
+    color: #646464;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.profiles .blog .date {
+    color: #e66768;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 39px;
+    font-family: "Lato";
+}
+
+.map {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    background: url(https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20155.790879724416!2d69.22615122270196!3d41.295636504867275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2s!4v1613830275707!5m2!1sru!2s);
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e66768;
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform == obyektni boshqariwga yordam beradi. translateX X oqi boyicha xarakatlantiradi */
+    width: 562px;
+    height: 525px;
+}
+
+form h2 {
+    margin-top: 60px;
+    font-size: 35px;
+    color: #ecba0b;
+    line-height: 39px;
+    font-family: "Lato";
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+form h2 span {
+    font-weight: 700;
+}
+
+form p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Lato";
+    color: #ffffff;
+    line-height: 30px;
+
+}
+
+form .phone {
+    font-size: 17px;
+    font-family: "Lato";
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+
+form .email {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-bottom: 42px;
+}
+
+form .main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form .main .top {
+    margin-bottom: 18px;
+    width: 461px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .main .top .name {
+    width: 220px;
+    height: 43px;
+    border: 1px solid #f5c2c3;
+    background: transparent;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Lato";
+    line-height: 30px;
+}
+
+form .main .top .mil {
+    width: 220px;
+    height: 43px;
+    border: 1px solid #f5c2c3;
+    background: transparent;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Lato";
+    line-height: 30px;
+}
+
+form .main textarea {
+    width: 461px;
+    height: 123px;
+    background: transparent;
+    border: 1px solid #f5c2c3;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Lato";
+
+    line-height: 30px;
+}
+
+form .main button {
+    background: transparent;
+    border: none;
+}
+
+form .main button:focus {
+    outline: none;
+    margin: auto;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+input::placeholder {
+    color: #ffffff;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #ffffff;
+}
+
+footer {
+    background: #3d3d3d;
+}
+
+.footer_nav {
+    width: 100%;
+    border: 1px solid #4c4c4c;
+    margin-bottom: 19px;
+}
+
+.f_menu {
+    width: 432px;
+
+    margin: auto;
+}
+
+.footer_nav .f_menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.up {
+    position: fixed;
+    bottom: 33px;
+    right: 80px;
+
+}
+
+.up button {
+    background: transparent;
+    border: none;
+}
+
+.up button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.footer_nav .f_menu ul li a {
+    color: #b1b1b1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Lato";
+    line-height: 39px;
+
+}
+
+footer p {
+    color: #919191;
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}

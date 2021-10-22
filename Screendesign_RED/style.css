@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rokkitt&display=swap');
+*{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(./images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.head{
+    background: rgba(224, 183, 181, 0.7);
+    padding-top: 55px;
+    position: relative;
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Myriad Pro Condensed";
+}
+.logo:hover{
+    color: #ffffff;
+}
+ul{
+    display: flex;
+    padding-left: 0;
+}
+ul li{
+    margin-left: 33px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Myriad Pro Condensed";
+    font-size: 19px;
+    position: relative;
+    margin-bottom: 0;
+    line-height: 19px;
+    
+}
+.active{
+    color: #e74c3c;
+}
+ul li a::after{
+   content: "";
+   display: block;
+   height: 1px;
+   width: 100%;
+   position: absolute;
+   background: #ffffff;
+   opacity: 0;
+   transform: translate(0,100px) rotate(0deg);
+   transition: 0.3s;
+
+}
+ul li a:hover{
+color: #ffffff;
+}
+ul li a:hover::after{
+    opacity: 1;
+    transform: translate(0,0) rotate(360deg);
+    top: 18px; 
+}
+header .head h1{
+   margin-top: 153px;
+   text-align: center;
+   color: #ffffff;
+   font-family: "Rokkitt";
+   font-size: 60px;
+   line-height: 50px;
+
+}
+
+header .head h1::after{
+    content: "";
+    height: 1px;
+    background: #ffffff;
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+header .head p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Quicksand";
+    font-weight: 400;
+    margin-bottom: 166px;
+}
+.ahead{
+    position: absolute;
+    bottom: 0%;
+    color: #ffffff;
+    font-family: "Rokkitt";
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 24px;
+    transform: translateY(50%);
+    background: #e74c3c;
+    padding: 14px 51px 15px;
+    border: none;
+    border: solid 6px rgba(215, 106, 94, 0.9)  ;
+    
+}
+.section{
+    padding-top: 150px;
+    padding-bottom: 76px;
+}
+.raph{
+    text-align: center;
+    margin-bottom: 76px;
+    font-size: 18px;
+    color: #95a5a6;
+    font-family: "Myriad Pro";
+}
+.section h2{
+    font-size: 36px;
+    font-family: "Myriad Pro";
+    color: #e74c3c;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.section p{
+    text-align: start;
+
+    font-size: 15px;
+    color: #95a5a6;
+    font-family: "Myriad Pro";
+    
+   
+  
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box .box_info h3{
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    line-height: 20px;
+}
+.box_img{
+
+    margin-bottom: 32px;
+}
+.box_img img{
+    width: 100%;
+    
+}
+.section::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #e4e8e8;
+    margin-top: 72px;
+}
+
+.template img{
+    width: 100%;
+}
+.template{
+    position: relative;
+    margin-bottom: 55px;
+    overflow:hidden;
+
+}
+.point{
+    margin-bottom: 0;
+}
+.curtain{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(224, 183, 181, 0.5);
+    top: 0;
+    transition: .3s;
+}
+.template .hover{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ z-index: 3;
+ bottom: 0;
+ transition: .3s;
+ overflow:hidden;
+ 
+}
+.template .hover .fa-search{
+    position: absolute;
+    top: -100px;
+    right: 20px;
+    background: #e74c3c;
+    transform: rotateY(180deg);
+    font-size: 16px;
+    padding: 11px;
+    border: solid 6px rgb(186, 51, 36);
+    opacity: 0;
+    transition: .3s;
+    
+}
+.hover:hover .fa-search{
+  opacity: 1;
+   
+    top: 20px;
+    right: 20px;
+}
+
+.hover_bottom{
+    position: absolute;
+    background: #e74c3c;
+    width: 100%;
+    bottom: 0;
+    left: -600px;
+    border-top: solid 6px rgba(215, 106, 94, 0.9);
+    opacity: 0;
+    transition: .3s;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    padding-left: 19px;
+    
+}
+.hover_bottom h3{
+    font-size: 30px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Rokkitt";
+    margin-bottom: 4px;
+}
+.hover_bottom span{
+  color: #9d3b31;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+}
+.template:hover .curtain{
+    opacity: 0;
+}
+.template:hover .hover_bottom{
+    opacity: 1;
+    bottom: 0;
+    left: 0px;
+}
+.hover button{
+    border: none;
+    background: transparent;
+}
+.view{margin-top: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Rokkitt";
+    padding: 19px 28px 17px 29px ;
+    line-height: 24px;
+    background: #e74c3c;
+    border: none;
+    align-items: center;
+    margin-bottom: 75px;
+    
+}
+.fa-arrow-circle-o-right{
+    margin-left: 23px;
+    font-size: 28px;
+}
+.main::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #e4e8e8;
+
+}
+
+.touch{
+    padding-top: 73px;
+}
+
+.touch h2{
+    font-family: "Rokkitt";
+    font-size: 60px;
+    color: #e74c3c;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 73px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top input{
+    width: 47%;
+    padding: 17px 0 19px 29px;
+    font-size: 30px;
+    line-height: 10px;
+    margin-bottom: 27px;
+    border: none;
+    background: #e4e8e8;
+    font-family: "Myriad Pro";
+}
+.top input::placeholder{
+    color: #cecece;
+    font-family: "Rokkitt";
+}
+.f_bottom textarea{
+    width: 100%;
+    border: none;
+    background: #e4e8e8;
+    font-size: 30px;
+    font-family: "Myriad Pro";
+}
+.f_bottom textarea::placeholder{
+    color: #cecece;
+    font-family: "Rokkitt";
+   
+}
+.f_bottom{
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+footer{
+    padding-top: 120px;
+    background: #e74c3c;
+    position: relative;
+    padding-bottom: 65px;
+}
+.fa-twitter, .fa-dribbble, .fa-facebook{
+    color: #e74c3c;
+    font-size: 38px;
+    position: absolute;
+    background: #ffffff;
+    top: 0;
+    transform: translateY(-50%);
+    padding: 25px;
+    border: solid 6px rgba(215, 106, 94, 0.9)  ;
+}
+.fa-facebook{
+    padding: 25px 32px;
+}
+.ending{
+    padding: 0 100px;
+}
+.name, .imprint {
+    font-family: "Rokkitt";
+    font-size: 24px;
+    color: #ffffff;
+}
+.imprint{
+display: flex;
+justify-content: flex-end;
+}
+footer button{
+    border: none;
+    background: transparent;
+}

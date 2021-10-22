@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans:wght@400;700&display=swap');
+
+*{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header{
+    background: #007d2f;
+}
+
+header nav{
+    padding: 17px 0;
+    
+    background: #ffffff;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul .list{
+    margin-left: 30px;
+}
+header nav ul .list .link{
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #191919;
+
+}
+header nav ul .list .link:hover{
+    color: #007d2f;
+}
+header nav ul .list .active{
+    color: #007d2f;
+}
+.contact{
+    padding-top: 110px;
+    background: #f5f5f5;
+}
+
+.contact .top h2{
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #171717;
+    
+    margin-bottom: 42px;
+}
+.contact .top .text{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    margin-bottom: 36px;
+    font-weight: 400;
+}
+.contact .top p{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.contact .top p span{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #171717;
+    font-weight: 700;
+}
+form input, textarea{
+    border: none;
+}
+form .form_top{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.form_top input{
+    width: 47%;
+    font-size: 15px;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    color: #171717;
+    padding: 16px 0 16px 16px;
+}
+.form_title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.form_title input{
+    padding: 16px 0 16px 16px;
+    width: 100%;
+    
+}
+textarea{
+    width: 100%;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 16px 0 0 16px;
+}
+form button{
+    text-transform: uppercase;
+    background: #007d2f;
+    padding: 23px 26px 22px 24px;
+    border: none;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+}
+.top{
+    margin-bottom: 99px;
+
+}
+iframe{
+    display: block;
+    width: 100%;
+}
+.contact{
+    padding-bottom: 99px;
+}
+
+
+
+
+footer{
+    background: #141414;
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+
+footer .mac{
+    
+    color: #ffffff;
+}
+footer .mac p{
+    margin-top: 26px;
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Myriad Pro";
+    text-align: start;
+}
+footer .mac h4{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 18px;
+}
+footer .middle{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+    
+
+footer .middle .f_email, .f_phone{
+    text-decoration: none;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+}
+footer .middle .f_email:hover{
+    color: #bcbcbc;
+}
+footer .middle .f_phone:hover{
+    color: #bcbcbc;
+}
+footer .list{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .list a{
+    text-decoration: none;
+    
+    font-size: 15px;
+    font-family: "Nunito Sans";
+    line-height: 24px;
+    font-weight: 400;
+    color: #bcbcbc;
+
+}
+
+/* media start=================================== */
+
+/* lg 992<=1199 */
+@media(max-width: 1199px){
+    footer {
+        padding-top: 67px;
+        padding-bottom: 63px;
+    }
+    .contact {
+        padding-bottom: 66px;
+        padding-top: 82px;
+    }
+    .top {
+        margin-bottom: 72px;
+    }
+    .contact .top h2{
+        margin-bottom: 25px;
+    }
+    .contact .top .text{
+        line-height: 21px;
+        margin-bottom: 26px;
+    }
+    .contact .top p{
+        margin-bottom: 21px;
+    }
+}
+
+/* md 768<=991 */
+@media(max-width: 991px){
+    header nav {
+        padding: 9px 0;
+       
+    }
+    .contact{
+        padding-top: 61px;
+        padding-bottom: 41px;
+    }
+    .form_top{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .form_top input{
+        padding: 12px 0 12px 12px;
+        width: 100%;
+        margin-bottom: 19px;
+    }
+    .form_top input:last-child{
+        margin-bottom: 0;
+    }
+    .form_title{
+        margin-bottom: 19px;
+        margin-top: 19px;
+        
+    }
+    .form_title input{
+        padding: 12px 0 12px 12px;
+    }
+    textarea{
+        height: 190px;
+        padding: 12px 0 0 12px;
+        margin-bottom: 19px;
+    }
+    form button{
+        padding: 14px 21px 15px 20px;
+        font-size: 12px;
+    }
+    .top {
+        margin-bottom: 52px;
+    }
+    footer {
+        padding-top: 39px;
+        padding-bottom: 31px;
+    }
+    iframe{
+        height: 400px;
+    }
+}
+
+
+/* sm 576<=767 */
+@media(max-width: 767px){
+    .contact{
+        padding-top: 36px;
+    }
+    form{
+        margin-top: 30px;
+    }
+    iframe{
+        height: 300px;
+    }
+    footer {
+        padding-top: 33px;
+        padding-bottom: 21px;
+    }
+    footer .mac p{
+        margin-top: 16px;
+    }
+    .middle a{
+        text-align: right;
+    }
+}
+
+/* xs <=575 */
+@media(max-width: 575px){
+    header nav ul .list {
+        margin-left: 8px;
+    }
+    .contact .top h2 {
+        font-size: 26px;
+    }
+    .contact .top h2 {
+        margin-bottom: 13px;
+    }
+    .contact .top .text{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .contact .top p{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 15px;
+    }
+    form {
+        margin-top: 16px;
+    }
+    .top {
+        margin-bottom: 32px;
+    }
+    iframe{
+        height: 250px;
+    }
+    .contact{
+        padding-bottom: 12px;
+    }
+    footer .mac h4{
+        text-align: center;
+        font-size: 17px;
+    }
+    footer .mac p{
+        text-align: center;
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+    footer .middle a{
+        text-align: center;
+    }
+    footer {
+        padding-top: 19px;
+        padding-bottom: 14px;
+    }
+    .form_top input{
+        margin-bottom: 10px;
+    }
+    .form_title {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    textarea{
+        height: 150px;
+    }
+}

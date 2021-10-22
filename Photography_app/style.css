@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rosario:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    background: url(./images/header_bg\ height\ 745.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 745px;
+    padding: 90px 333px 0px;
+}
+header nav{
+    margin: auto;
+}
+header h1{
+    padding-top: 290px;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Rosario";
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 764px;
+    margin: auto;
+}
+header nav ul{
+    display: flex;
+    width: 614px;
+    height: 70px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+header nav ul li .menu{
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Rosario";
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+header nav ul li .menu::after{
+    display: block;
+    content: "";
+    height: 4px;
+    margin-top: 4px;
+    background: #16a085;
+    width: 0%;
+    transition: 0.5s;
+}
+header nav ul li .menu:hover::after{
+   
+    width: 100%;
+    
+    
+    
+}
+header .simple{
+        display: flex;
+        justify-content: space-between;
+        width: 1004px;
+        margin: auto;
+}
+header .simple p{
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Rosario";
+    color: #ffffff;
+}
+header .simple img{
+    margin-top: 40px;
+}
+header button{
+    margin: auto;
+    border: none;
+    background: #16a085;
+    text-align: center;
+    width: 190px;
+    height: 60px;
+    font-family: "Rosario";
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px 0 20px;
+    margin-top: 52px;
+    
+}
+header .icons{
+    margin: auto;
+    margin-top: 50px;
+    width: 118px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    background: url(./images/tochka\ fon\ h500.jpg);
+}
+section .first{
+    width: 848px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ section .first .left{
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 105px; 
+}
+section .first .pic{
+    margin-top: 37px;
+    height: 425px;
+    width: 207px;
+}
+
+section .first .left h2{
+    font-family: "Rosario";
+    font-size: 24px;
+    font-weight: 700;
+    width: 242px;
+    color: #16a085;
+    margin-bottom: 58px;
+}
+
+section .first .left p{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Raleway";
+    width: 423px;
+    line-height: 30px;
+}
+section .first .left button{
+    width: 190px;
+    height: 60px;
+    
+    border: none;
+    background: #16a085;
+    text-align: center;
+    font-family: "Rosario";
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px 0 20px;
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+.power{
+    
+    padding-top: 94px;
+    
+}
+.power .power_1{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 930px;
+}
+.power .power_1 .right{
+    width: 418px;
+ 
+}
+.power .power_1 .right h2{
+    margin-bottom: 42px;
+    font-family: "Rosario";
+    font-size: 24px;
+    font-weight: 700;
+    color: #16a085;
+}
+.power .power_1 .right p{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Raleway";
+    width: 418px;
+    line-height: 30px;
+
+}
+.power .power_1 .right button{
+    width: 190px;
+    height: 60px;
+    
+    border: none;
+    background: #16a085;
+    text-align: center;
+    font-family: "Rosario";
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px 0 20px;
+    margin-top: 36px;
+}
+.gallery{
+    background: url(./images/tochka\ fon\ h500.jpg);
+   
+}
+.gallery_1{
+    display: block;
+    width: 916px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery_1 .left{
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery .gallery_1 .left h2{
+    font-family: "Rosario";
+    font-size: 17.86px;
+    font-weight: 700;
+    color: #16a085;
+    width: 110px;
+    margin-top: 23px;
+    margin-bottom: 33px;
+}
+.gallery_1 .left p{
+    width: 229px;
+    font-size: 10px;
+    text-align: center;
+    font-family: "Raleway";
+}
+.gallery_1 .right .pictures{
+    margin-top: 66px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 510px;
+    height: 345px;
+}
+
+.gallery_1 .right .arrow{
+    width: 199px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-left: 77px;
+    padding-bottom: 20px;
+}
+.subscribe{
+    background: url(./images/second_bg\ w1280\ h600.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+form{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.subscribe h2{
+  padding-top: 215px;
+  text-align: center; 
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff; 
+  margin-bottom: 56px;
+  font-family: "Rosario"; 
+}
+form .email input{
+    width: 363px;
+    height: 50px;
+    border-radius: 20px;
+    margin: auto;
+    border: none;
+     
+}
+form .email button{
+    background: url(./images/arrow\ w32\ h32.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+}
+input{
+    padding: 14px 20px;
+    font-size: 18px;
+    font-family: "Rosario";
+    font-weight: 700;
+}
+input:focus{
+    outline: none;
+}
+.download{
+    padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/tochka\ fon\ h500.jpg);
+    padding-bottom: 20px;
+}
+.download h2{
+    margin-bottom: 22px;
+    font-family: "Rosario";
+    font-weight: 700;
+    font-size: 24px;
+}
+.download p{
+    width: 833px;
+    line-height: 30px;
+    font-family: "Raleway";
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 54px;
+}
+.download .android{
+    display: flex;
+    justify-content: space-between;
+    width: 368px;
+}
+
+footer .end .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 346px;
+
+}
+footer .end .logo p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+footer .contact{
+    display: flex;
+    align-items: center;
+    width: 155px;
+}
+.end{
+    padding:28px 0 ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+width: 785px;
+}
+footer .contact a{
+    font-size: 12px;
+    font-family: "Raleway";
+}

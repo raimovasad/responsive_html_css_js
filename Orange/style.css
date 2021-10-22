@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ======================= nav start */
+nav {
+    background: #f8f8f8;
+    padding: 7px 0;
+}
+
+nav .menu {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul {
+    display: flex;
+}
+
+nav .menu ul li {
+    margin-left: 22px;
+}
+
+nav .menu ul li a {
+    color: #4e4e4e;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav .menu ul li a:hover,
+nav .menu ul li a.active {
+    color: #dd4400;
+}
+
+
+/* ===================== header start */
+header {
+    height: 500px;
+    background: url(./image/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: inset 0 0 10px #cfc9c4;
+}
+
+
+/* ======================= main start */
+main {
+    padding: 50px 0 100px;
+}
+
+main .info {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+main .info .info_box {
+    width: 255px;
+    padding: 50px 0 26px;
+    box-shadow: 0 0 12px #ebded9;
+}
+
+main .info .info_box h2 {
+    margin: 0 45px;
+    text-align: center;
+    color: #dd4400;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+
+main .info .info_box .box_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .info .info_box .box_icon .icon {
+    display: block;
+    margin: 30px 0 24px;
+}
+
+main button {
+    background: #dd4400;
+    border: none;
+    padding: 13px 53px 11px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+main .business {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .business .business_left {
+    width: 727px;
+}
+
+main .business .business_right {
+    width: 245px;
+}
+
+main .business h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #5e5e5e;
+    line-height: 24px;
+    margin-bottom: 52px;
+}
+
+main .business .business_left p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5e5e5e;
+    margin-bottom: 36px;
+}
+
+main .business .business_left p:nth-of-type(3) {
+    margin-bottom: 50px;
+}
+
+main .business .business_right .link_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+main .business .business_right .link_box .link_img {
+    width: 65px;
+}
+
+main .business .business_right .link_box .link_adress {
+    width: 150px;
+}
+
+main .business .business_right .link_box .link_adress a{
+    color: #dd4400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+/* ================ footer start */
+footer{
+    background: #dd4400;
+    padding: 66px 0;
+}
+
+footer .end{
+    width: 1106px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .end h2{
+    color: #ffffff;
+    line-height: 24px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+footer .end .phone a{
+    font-weight: 400;
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 24px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer .end .phone p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+footer .end .email{
+    text-align: end;
+}
+
+footer .end .email p,
+footer .end .email a{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    text-decoration: none;
+}

@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: "Roboto";
+}
+
+/* =====nav start============= */
+
+ .head{
+    padding-top: 47px;
+    padding-bottom: 23px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(./images/menu_icon.png);
+}
+
+.navbar .navbar-brand{
+    color: rgba(1, 21, 85, 0.7);
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.navbar .navbar-brand:hover{
+    color: rgba(1, 21, 85, .7);
+}
+
+/* ==============header start=========== */
+
+header .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header{
+    background: url(./images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 73px;
+}
+header h1{
+    margin-top: 123px;
+    font-size: 50px;
+    font-weight: 100;
+    color: #626262;
+    line-height: 45.74px;
+    margin-bottom: 30px;
+}
+header h1 span{
+    font-size: 50px;
+    font-weight: 700;
+    color: #011556;
+
+}
+.info{
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300; 
+    margin-bottom: 107px;
+}
+form{
+    padding-top: 33px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    padding-right: 53px;
+    padding-bottom: 89px;
+    position: relative;
+    
+}
+form h3{
+  font-size: 20px;
+  color: #011556;
+  line-height: 25px;
+  font-weight: 400;
+  margin-bottom: 50px;  
+}
+
+.form input{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #808080;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #c7c7c7;
+    margin-bottom: 33px;
+}
+
+
+.form input:focus,
+.form textarea{
+    outline: none;
+}
+
+.form textarea{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #808080;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #c7c7c7;
+    margin-bottom: 20px;
+}
+
+.button{
+   border: none;
+   border: 1px solid #ededed;
+   border-radius: 25px;
+   background: #011556;
+   padding: 21px 24px 20px;
+   font-size: 16px;
+   line-height: 25px;
+   font-weight: 700;
+   color: #ffffff;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 13px;
+}
+
+/* =================section start=============== */
+
+.dust{   
+    padding-top: 70px;
+    
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.direction{
+    padding-bottom: 60px;
+}
+section h2{
+font-size: 50px;
+font-weight: 900;
+color: #011556;
+line-height: 46px;
+margin-bottom: 202px;
+
+}
+
+
+.count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.count img{
+    width: 100%;
+}
+.count a{
+    display: block;
+    margin-top: 45px;
+    font-size: 36px;
+    color: #011556;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+/* ===================main start============== */
+
+main{
+    background: #fbfbfb;
+    padding: 70px 0;
+    align-items: center;
+}
+
+
+.destination h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: #011556;
+    line-height: 46px;
+    margin-bottom: 49px;
+
+}
+.destination p{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: .5;
+    line-height: 27px;
+    margin-bottom: 110px;
+}
+
+.box{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+.box .city_image{
+    width: 100%;
+}
+.box .city_image img{
+    width: 100%;
+    
+}
+.city_hover{
+    width: 100%;
+    height: 100%;
+    background: rgba(204, 210, 230, .71);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0 28px;
+    transition: .3s;
+    transform: rotate(0deg) scale(0);
+    opacity: 0;
+    
+
+}
+
+.city_hover h3{
+    margin-bottom: 30px;
+    color: #011556;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+}
+.city_hover p{
+    text-align: center;
+   
+    color: #011556;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 74px;
+}
+.box:hover .city_hover{
+    transform: rotate(360deg) scale(1);
+    opacity: 1;
+}
+.btn_buy{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 27px;
+    background: #011556;
+ border: none;
+ border-radius: 24px;
+ padding: 13px 44px 12px 46px;
+}
+.docs{
+    font-weight: 700;
+    
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.doc_creat{
+    padding: 70px 0 275px;
+
+}
+.doc_creat span{
+  margin-right: 40px;
+
+}
+.doc_creat p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 32px;
+}
+.tour{
+    padding: 70px 0 60px;
+    background: #fbfbfb;
+}
+.tours{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #011556;
+    line-height: 46px;
+    margin-bottom: 45px;
+    padding-top: 0;
+    margin-bottom: 44px;
+}
+.tour_info{
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 0.5;
+    font-weight: 400;
+    text-align: center;
+}
+.case{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 152px;
+}
+.journey_box .journey_image img{
+    width: 100%;
+    height: 100%;
+}
+.journey_box{
+   position: relative;
+   margin-bottom: 68px;
+}
+.journey_hover{
+    padding: 12px 7px 30px 7px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -29px;
+    background: #ffffff;
+    width: 262px;
+    height: 95px;
+    box-shadow: 0 0 6px #ededed;
+}
+.journey_hover p{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.journey_hover span{
+    font-size: 24px;
+    font-weight: 500;
+    color: #011556;
+}
+
+
+.reviews{
+    padding: 70px 0 10px;
+}
+
+.reviews h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 65px;
+    margin-top: 0;
+    
+    text-align: center;
+    color: #011556;
+}
+.rev{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.5;
+    text-align: center;
+}
+.top{
+    margin-bottom: 82px;
+}
+
+.b_box{
+    padding: 94px 0 38px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px 12px #f6f6f6;
+    margin-bottom: 60px;
+}
+.bottom_image {
+ position: absolute;
+ top: -44px;
+ left: 50%;
+ transform: translateX(-50%);
+}
+.bottom_image img{
+    width: 100%;
+}
+.bottom_info p{
+   
+    font-size: 17px;
+    font-weight: 500;
+    opacity: .7;
+    line-height: 27px;
+    margin-bottom: 19px;
+}
+.stars{
+    margin-bottom: 21px;
+}
+.stars .fa-star{
+    color: #ffef3b;
+    font-size: 13px;
+
+}
+.bottom_info span{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: .8;
+    color: black;
+}
+ 
+
+footer{
+    padding: 70px 0 54px;
+    background: #f7f7f7;
+
+}
+.contacs{
+    border: none;
+    padding: 20px 87px;
+    background: #011556;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.icons{
+    display: flex;
+    margin-right: 43px;
+    align-items: center;
+    
+}
+.fa-facebook, .fa-twitter, .fa-dribbble{
+    font-size: 25px;
+    color: #ffffff;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d3d3d3;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 16px;
+    text-decoration: none;
+
+}
+.facebook:hover{
+    background: #011556;
+
+}
+.posledniy{
+    margin-bottom: 0;
+    font-size: 17px;
+    opacity: .6;
+}
+
+/* ===============media start================ */
+/* -----lg-992<=1199 */
+
+@media(max-width: 1199px){
+    header h1{
+        font-size: 45px;
+        
+    }
+    header h1 span{
+        font-size: 46px;
+    }
+    .button{
+        padding: 16px 24px 17px;
+    }
+    section h2 {
+        text-align: center;
+        margin-bottom: 172px;
+    }
+    .city_hover{
+        padding: 32px 0 24px;
+    }
+    .city_hover h3{
+        margin-bottom: 22px;
+    }
+    .city_hover p{
+        margin-bottom: 44px;
+    }
+    .btn_buy{
+        line-height: 19px;
+        padding: 13px 43px 12px 43px;
+    }
+    .doc_creat {
+        padding: 70px 0 122px;
+    }
+    .tours{
+        font-size: 47px;
+    }
+    .journey_hover p{
+        font-size: 25px;
+    }
+    .journey_hover span{
+        font-size: 22px;
+    }
+    .bottom_info p{
+        padding: 0px 15px;
+    }
+
+
+}
+
+/* --md-768<=991 */
+@media(max-width:991px){
+    header h1{
+        font-size: 41px;
+    }
+    header h1 span{
+        font-size: 41px;
+    }
+    .button {
+        padding: 13px 21px 12px;
+    }
+    section h2{
+        font-size: 45px;
+        margin-bottom: 151px;
+    }
+    .count a{
+        font-size: 31px;
+    }
+    .city_hover{
+        padding: 20px 0 14px;
+    }
+    .city_hover h3{
+        font-size: 27px;
+        margin-bottom: 14px;
+        line-height: 27px;
+    }
+    .city_hover p{
+        margin-bottom: 25px;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0px 5px;
+    }
+    .btn_buy{
+        padding: 9px 32px 11px;
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .destination h2{
+        font-size: 45px;
+    }
+    .docs{
+        font-size: 42px;
+        margin-bottom: 88px;
+    }
+    .doc_creat p{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .dust{   
+        padding-top: 21px;
+        
+    }
+    .doc_creat {
+        padding: 70px 0;
+    }
+    .tours{
+        font-size: 42px;
+    }
+    .case{
+        margin-bottom: 110px;
+    }
+    .journey_hover{
+        width: 184px;
+        bottom: -20px;
+        height: 67px;
+        padding: 8px 0px;
+    }
+    .journey_hover p{
+        font-size: 18px;
+    }
+    .journey_hover span{
+        font-size: 17px;
+    }
+
+    .reviews h2{
+        font-size: 44px;
+    }
+    .bottom_info p{
+       font-size: 16px;
+    }
+    .contacs{
+        padding: 12px 62px;
+        line-height: 16px;
+        margin-bottom: 22px;
+    }
+    footer {
+        padding: 41px 0 25px;
+
+    }
+}
+
+/* --sm-576<=767 */
+@media(max-width: 767px){
+    .head{
+        padding: 23px 0 11px;
+
+    }
+    .navbar .navbar-brand{
+        font-size: 38px;
+        line-height: 38px;
+    }
+    header {
+        padding-bottom: 36px;
+    }
+    header h1{
+        margin-top: 60px;
+        font-size: 40px;
+    }
+    header h1 span{
+        font-size: 40px;
+    }
+    .info{
+        margin-bottom: 65px;
+    }
+    .form textarea{
+        line-height: 16px;
+    }
+    form h3{
+        margin-bottom: 42px;
+    }
+    .form{
+        padding-bottom: 69px;
+    }
+    section h2{
+        margin-top: 41px;
+        margin-bottom: 86px;
+        font-size: 41px;
+    }
+    .count a{
+        margin-top: 17px;
+        font-size: 24px;
+    }
+    .direction{
+        padding-bottom: 60px;
+    }
+    main{
+        padding: 50px 0 ;
+    }
+    .destination h2{
+        font-size: 37px;
+        margin-bottom: 35px;
+    }
+    .destination p{
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 63px;
+    }
+    .city_hover{
+        padding: 13px 0 ;
+    }
+    .city_hover h3{
+        font-size: 20px;
+        margin-bottom: 8px;
+        line-height: 20px;
+    }
+    .city_hover p{
+        margin-bottom: 11px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .btn_buy{
+        line-height: 9px;
+        font-size: 13px;
+        padding: 9px 30px;
+    }
+    .doc_creat{
+        padding: 20px 0 50px;
+    }
+    .docs{
+        font-size: 34px;
+        margin-bottom: 54px;
+    }
+    .doc_creat p{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .tours{
+        font-size: 36px;
+    }
+    .tour{
+        padding: 50px 0 20px;
+    }
+    .case{
+        margin-bottom: 54px;
+    }
+    .reviews h2{
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    footer{
+        padding: 25px 0 25px;
+    }
+    .contacs{
+        padding: 10px 29px;
+    }
+    .facebook{
+        width: 36px;
+        height: 36px;
+    }
+
+
+}
+/* --xs-575> */
+@media(max-width:575px){
+    section h2{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 62px;
+    }
+    .count a{
+        font-size: 18px;
+    }
+    .destination h2{
+        line-height: 13px;
+        font-size: 23px;
+    }
+    .navbar .navbar-brand{
+        font-size: 24px;
+    }
+    .navbar-toggler{
+        padding: 0;
+    }
+    .navbar>.container-fluid{
+        padding: 0 12px;
+    }
+    .head{
+        padding: 7px 0 0;
+    }
+    header h1{
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    header h1 span{
+        font-size: 29px;
+    }
+    .info{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    form{
+        padding-top: 18px;
+    }
+    .form{
+        padding-right: 16px ;
+        padding-left: 16px;
+    }
+    .button{
+        font-size: 14px;
+        padding: 11px 21px ;
+        line-height: 17px;
+    }
+    section h2{
+        font-size: 24px;
+        margin-top: 17px;
+        margin-bottom: 50px;
+    }
+    .count a{
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .destination p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .city_hover h3{
+        font-size: 15px;
+        line-height: 8px;
+    }
+    .box{
+        margin-bottom: 14px;
+    }
+    .doc_creat {
+        padding: 0px 0 50px;
+    }
+    .docs {
+        font-size: 24px;
+        margin-bottom: 35px;
+    } 
+    section h2{
+        line-height: 28px;
+    }  
+    .doc_creat p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .tours{
+    font-size: 24px;
+    margin-bottom: 27px;
+    }
+    .tour{
+        padding: 20px 0 0;
+    }
+    .journey_hover{
+        width: 64px;
+        height: 45px;
+        bottom: -15px;
+        padding: 4px 0;
+    }
+    .journey_hover p{
+        font-size: 11px;
+        line-height: 11px;
+    }
+    .journey_hover span{
+        font-size: 11px;
+    }
+    .reviews h2{
+        font-size: 33px;
+    }
+    .reviews {
+        padding: 21px 0 10px;
+    }
+    .rev{
+        font-size: 14px;
+    }
+    .bottom_info p{
+        font-size: 24px;
+    }
+    .posledniy{
+        font-size: 14px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

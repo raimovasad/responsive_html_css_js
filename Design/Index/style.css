@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Nunito+Sans&family=Work+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+header{
+    background: url(./images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0;
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 600;
+
+}
+
+.navbar-light .navbar-nav .active{
+    color: #007d2f !important;
+}
+.active,
+.navbar-light .navbar-nav .nav-link:hover{
+
+   color: #007d2f;
+}
+.nav-item{
+    margin-left: 34px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0;
+}
+
+
+
+.design h1{
+    margin-top: 60px;
+    color: #1d1d1d;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.design p{
+    color: #787878;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: "Myriad Pro";
+    line-height: 24px;
+    margin-bottom: 54px;
+}
+.design .contact{
+    background: #007d2f;
+    border: none;
+    padding: 22px 58px 23px 46px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 11px;
+    margin-bottom: 281px;
+}
+.about_us{
+    padding-bottom: 43px;
+}
+
+.about_us h2{
+    margin-top: 96px;
+    text-align: center;
+    margin-bottom: 42px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    font-size: 34px;
+    color: #191919;
+}
+.about_us p{
+    text-align: center;
+    margin-bottom: 43px;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #787878;
+    line-height: 21px;
+    word-spacing: 5px;
+
+}
+
+.professional_skills{
+    background: #f8f9f9;
+}
+
+.professional_skills .statistics{
+    width: 100%;
+   padding: 0 44px 158px 116px;
+
+}
+.professional_skills .img{
+    width: 100%;
+    height: 100%;
+}
+.professional_skills .img img{
+  width: 100%;
+  height: 100%;
+}
+.statistics .uxdesign, .web, .marketing{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+.statistics .progress{
+    margin-bottom: 40px;
+    height: 3px;
+
+}
+.statistics .progress:last-child{
+    margin-bottom: 0;
+}
+.statistics .progress .progress-bar{
+    color: #007d2f!important;
+}
+.professional_skills h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 27px;
+    color: #171717;
+    font-weight: 500;
+    margin: 162px 0 39px 116px;
+    font-family: "Montserrat";
+}
+
+.count{
+    background: #007d2f;
+    padding: 76px 80px 80px;
+    
+}
+.count .fa{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+.count span{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.count .project{
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+.pictures img{
+    width: 100%;
+    height: 100%;
+}
+.pictures .zero{
+    position: relative;
+}
+.pictures .zero .hover{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    top: 0;
+    height: 100%;
+    opacity: 0;
+    transform: rotateZ(0deg);
+    transition: .3s;
+}
+.pictures .zero .hover .eyes{
+    width: unset;
+    height: unset;
+}
+.pictures .zero:hover .hover{
+ opacity: 1;
+ transform: rotateZ(540deg);
+}
+
+
+.load_work{
+    background: #007d2f;
+    padding-top: 46px;
+    padding-bottom: 38px;
+}
+.load_work p{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+
+main{
+
+    padding: 98px 0;
+    
+}
+main h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 43px;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+main p{
+    text-align: center;
+    margin-bottom: 47px;
+    line-height: 33px;
+    font-size: 17px;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    color: #787878;
+}
+
+.video{
+    position: relative;
+   
+
+}
+.video img{
+    width: 100%;
+}
+
+.video .video_play{
+    position: absolute;
+    background: #007d2f;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+}
+.video .video_play .fa-play{
+    color: #ffffff;
+}
+
+
+
+
+section{
+    background: #f5f5f5;
+    padding-top: 104px;
+    padding-bottom: 45px;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 53px;
+}
+.box h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+.box p{
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    line-height: 23px;
+}
+.icon{
+    margin-bottom: 25px;
+}
+
+
+.carousel-item{
+    height: 500px;
+    background: #007d2f;
+    color: white;
+    position: relative;
+}
+
+.carousel-item p{
+    margin-top: 196px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    line-height: 29px;
+}
+.carousel-item h4{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+
+.icons{
+    padding-top: 66px;
+    padding-bottom: 44px;
+}
+
+.message{
+    background: #f5f5f5;
+    padding-top: 28px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top input{
+    border: none;
+    width: 48%;
+    display: inline-block;
+    padding: 14px 0 16px 14px;
+    font-size: 15px;
+    font-family: "Nunito Sans";
+    line-height: 24px;
+    font-weight: 400;
+    
+    
+}
+.title{
+    border: none;
+    padding: 14px 0 16px 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}
+.message textarea{
+    border: none;
+    padding: 14px 0 0 14px;
+    resize: none;
+}
+.message h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    line-height: 84px;
+}
+.message p{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    line-height: 24px;
+    color: #787878;
+    margin-bottom: 36px;
+}
+.message .send{
+    border: none;
+    background: #007d2f;
+    padding: 22px 25px 21px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #141414;
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+
+footer .mac{
+    
+    color: #ffffff;
+}
+footer .mac p{
+    margin-top: 26px;
+    color: #bcbcbc;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Myriad Pro";
+    text-align: start;
+}
+footer .mac h4{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 18px;
+}
+footer .middle{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+    
+
+footer .middle .f_email, .f_phone{
+    text-decoration: none;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+}
+footer .middle .f_email:hover{
+    color: #bcbcbc;
+}
+footer .middle .f_phone:hover{
+    color: #bcbcbc;
+}
+
+footer .list a{
+    text-decoration: none;
+    
+    font-size: 15px;
+    font-family: "Nunito Sans";
+    line-height: 24px;
+    font-weight: 400;
+    color: #bcbcbc;
+
+}
+footer .list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* media start============================ */
+/* lg 992<=1199 */
+@media(max-width: 1199px)
+{
+    .video img{
+        width: 100%;
+    }
+    .design .contact{
+        margin-bottom: 129px;
+    }
+    .about_us h2{
+        margin-top: 47px;
+    }
+    .professional_skills h2{
+        margin: 88px 0 39px 70px;
+    }
+    .professional_skills .statistics{
+        padding: 0 44px 86px 70px;
+    }
+    .count {
+       
+        padding: 46px 71px 44px;
+    }
+    .load_work{
+        padding-top: 30px;
+        padding-bottom: 28px;
+    }
+    .load_work p{
+        font-size: 18px;
+    }
+}
+
+/*    md 768<=991 */
+@media(max-width: 991px){
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-item{
+        margin-bottom: 15px;
+    }
+    header{
+        position: relative;
+    }
+    nav{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        
+    }
+    .design h1{
+        margin-top: 140px;
+        font-size: 32px;
+        
+    }
+    .design .contact{
+        margin-bottom: 89px;
+    }
+    .skill{
+        width: 100%;
+    }
+    .professional_skills h2{
+    
+        margin: 100px 0 50px 50px;
+    }
+    .professional_skills .statistics{
+      padding: 0 44px 86px 50px;;
+    }
+    .count {
+        padding: 46px 44px 44px;
+    }
+    .zero{
+        width: 50%!important;
+    }
+    main {
+        padding: 40px 0;
+    }
+    main h2{
+        font-size: 37px;
+
+    }
+    main p{
+        line-height: 28px;
+    }
+    .video .video_play{
+        width: 60px;
+        height: 60px;
+    }
+    .video .video_play .fa-play{
+        font-size: 14px;
+    }
+    section{
+        padding-top: 47px;
+        padding-bottom: 0;
+    }
+    .box{
+        margin-bottom: 22px;
+    }
+    .carousel-item p{
+        margin-top: 153px;
+    }
+    .icons {
+        padding-top: 45px;
+        padding-bottom: 22px;
+    }
+    .message .send{
+        margin-bottom: 55px;
+    }
+    footer{
+        padding-top: 50px;
+        padding-bottom: 53px;
+    }
+    
+
+
+}
+
+/* sm 576<=767 */
+@media(max-width: 767px){
+
+    .count {
+        padding: 26px 36px 19px;
+    }
+    .load_work {
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+
+     .carousel-item{
+         height: 300px;
+
+     }
+     .carousel-item p {
+        margin-top: 70px;
+        font-size: 17px;
+    }
+    .icons .ico{
+        margin-bottom: 28px;
+    }
+    .icons {
+        padding-top: 37px;
+        padding-bottom: 12px;
+    }
+    .design h1{
+        font-size: 27px;
+        margin-bottom: 14px;
+    }
+    .design p{
+           margin-bottom: 33px;
+    }
+    .design .contact {
+        margin-bottom: 28px;
+        padding: 16px 34px 16px 35px;
+    }
+    .about_us h2{
+        margin-bottom: 22px;
+        font-size: 30px;
+    }
+    .professional_skills h2{
+        font-size: 28px;
+        margin: 44px 0 42px 50px;
+    }
+    .professional_skills .statistics {
+        padding: 0 44px 54px 50px;
+    }
+    main h2 {
+        font-size: 30px;
+    }
+    textarea{
+        height: 150px;
+        font-size: 20px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .top input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    input, .top input{
+        font-size: 20px;
+    }
+    .title{
+        margin-top: 0;
+    }
+    .message .send {
+        margin-bottom: 42px;
+        padding: 15px 21px 14px;
+
+    }
+    footer {
+        padding-top: 42px;
+        padding-bottom: 33px;
+    }
+
+}
+/* xs<=575 */
+
+@media(max-width: 575px){
+
+    .design h1 {
+        
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-top: 120px;
+    }
+    .design p{
+        text-align: center;
+        line-height: 19px;
+        display: none;
+    }
+    .design .contact{
+        display: none;
+    }
+    .nav-item{
+        margin-bottom: 0;
+    }
+    .about_us h2 {
+        margin-bottom: 13px;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .about_us p{
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .about_us{
+        padding-bottom: 24px;
+    }
+    .professional_skills h2{
+        font-size: 24px;
+        margin: 33px 0 37px 50px;
+    }
+    main h2 {
+        font-size: 25px;
+    }
+    main p{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    main {
+        padding: 22px 0;
+    }
+    .box p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .box {
+        margin-bottom: 10px;
+    }
+    .carousel-item p {
+        margin-top: 39px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .icons .ico{
+        margin-bottom: 15px;
+    }
+    .message h2{
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .mac h4{
+        text-align: center;
+    }
+    .mac p{
+        text-align: center!important;
+    }
+
+}

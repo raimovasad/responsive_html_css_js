@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+header a {
+    display: block;
+    text-align: center;
+}
+
+nav ul {
+    width: 822px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 64px;
+    height: 50px;
+    font-weight: 400;
+
+}
+
+ul li a::after {
+    content: "";
+    height: 1px;
+    background: #4581b7;
+    margin-top: 10px;
+
+
+}
+
+nav ul li a {
+    color: #bab9b9;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+
+nav ul li a:hover::after {
+    display: block;
+    color: #4581b7;
+    width: 100%;
+    height: 1px;
+
+}
+
+nav ul li a:hover {
+    color: #4581b7;
+}
+
+.pic {
+    margin: auto;
+    width: 1110px;
+    height: 450px;
+}
+
+
+section {
+    margin: auto;
+    width: 1110px;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .left {
+    font-size: 16px;
+    padding: 50px 41px 0px;
+    width: 730px;
+    height: 500px;
+    background: #f0f0f0;
+    line-height: 27px;
+}
+
+section .left p {
+    margin-top: 16px;
+    color: #808080;
+}
+
+section .right {
+    padding: 50px 41px 0px;
+    font-size: 16px;
+    width: 350px;
+    height: 500px;
+    background: #f0f0f0;
+    line-height: 27px;
+}
+section .right p{
+    color: #808080;
+    margin-top: 16px;
+}
+section .right a{
+    color: #808080;
+}
+section .right #tele{
+    margin: 40px 0px;
+}
+
+h3 {
+    font-weight: 700;
+    color: #4581b7;
+    font-size: 20px;
+}
+footer{
+    margin: auto;
+    height: 150px;
+    width: 1110px;
+    background: #f0f0f0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+footer .phone{
+    text-align: end;
+    margin-right: 40px;
+}
+footer .phone p{
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+footer .phone a{
+    color: #808080;
+    font-weight: 700;
+    font-size: 25px;
+}
+footer .flogo img{
+    margin-top: 16px;
+    margin-left: 42px;
+}

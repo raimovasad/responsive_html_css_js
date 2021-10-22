@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Merriweather:wght@300;400&family=Open+Sans:wght@400;600;700&family=Raleway:wght@700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background: #191919;
+    padding-top: 258px;
+}
+header .title{
+    width: 1070px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .title h1{
+    color: #ffffff;
+    font-size: 110px;
+    font-weight: 800;
+    font-family: "Raleway";
+    line-height: 90px;
+    margin-bottom: 50px;
+}
+header .title p{
+    color: #cccccc;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Merriweather";
+    margin-top: 50px;
+    margin-bottom: 230px;
+}
+main{
+    padding-top: 87px;
+    padding-bottom: 98px;
+}
+main .business{
+    width: 1162px;
+    margin: auto;
+    
+}
+main .business .up h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #333333;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    margin-bottom: 31px;
+}
+main .business .up p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Merriweather";
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 80px;
+}
+main .business .down{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+main .business .down .left{
+    width: 638px;
+}
+main .business .down .right{
+    width: 452px;
+}
+main .business .down .left h3{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #333333; 
+    margin-bottom: 38px;
+}
+main .business .down .left p{
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #646464;
+    line-height: 30px;
+}
+main .business .down .right h3{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #333333; 
+    margin-bottom: 38px;
+}
+main .business .down .right p{
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #646464;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+main .business .down .right .icons{
+    width: 196px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    background: #262626;
+    padding-top: 102px;
+}
+section .audience{
+    width: 1162px;
+    margin: auto;
+    
+}
+section .audience h3{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 48px;
+    font-family: "Open Sans";
+    margin-bottom: 34px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+section .audience p{
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Merriweather";
+    font-weight: 300;
+    margin-bottom: 42px;
+
+}
+section .audience button{
+    height: 70px;
+    width: 272px;
+    border: 1px white solid;
+    background: #262626;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 36px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 87px;
+    cursor: pointer;
+
+}
+footer{
+    background: #333333;
+    padding-top: 78px;
+}
+footer .end{
+    width: 1166px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .end .menu{
+    margin-bottom: 43px;
+}
+footer .end .menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 828px;
+}
+footer .end .menu ul li a{
+    font-family: "Lato";
+    font-size: 13px;
+    line-height: 36px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+footer .end .mail input{
+    background: transparent;
+    border: none ;
+    border-bottom: solid 1px #929292;
+    font-size: 60px;
+    font-family: "Lato";
+    font-weight: 300;
+    line-height: 30px;
+    color: #4c4b4b;
+    margin-bottom: 15px;
+}
+footer .end .mail input:focus{
+    outline: none;
+}
+footer .end .mail .tips{
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    font-family: "Lato";
+    margin-bottom: 59px;
+}
+footer .end .mail .rights{
+    font-size: 14px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: #5c5c5c;
+    margin-bottom: 36px;
+}
+footer .end .salem{
+    width: 264px;
+    display: flex;
+    flex-direction: column;
+}
+footer .end .salem h3{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+footer .end .salem p{
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 31px;
+}
+footer .end .salem .icons{
+    width: 194px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
